@@ -2,7 +2,7 @@ body {
     background-color: black;
 }
 
-h1, h2, p {
+h1, h2, p, figcaption {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
@@ -33,14 +33,20 @@ h2 {
 figcaption {
     color: gray;
     font-size: 21px;
-    text-align: center;
 }
 
 figure {
     margin: 50px;
 }
 
-figure img {
+img {
     display: block;
     margin: 20px auto;
+}
+
+footer p {
+    margin: 10px;
+    color: gray;
+    font-size: 21px;
+    text-align: right;
 }
