@@ -30,3 +30,17 @@ h2 {
     font-weight: 300;
 }
 
+figcaption {
+    color: gray;
+    font-size: 21px;
+    text-align: center;
+}
+
+figure {
+    margin: 50px;
+}
+
+figure img {
+    display: block;
+    margin: 20px auto;
+}
